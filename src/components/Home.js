@@ -4,12 +4,12 @@ class Home extends Component {
     render() {
         return (
             <div>
-              <div class="top-container">
+              <div className="top-container">
                 <h1>Shopping Tool</h1>
                 <p>Allows You to manage your shopping list</p>
                 </div>
 
-                <header class="header" id="myHeader">
+                <header className="header" id="myHeader">
                     <nav className="nav">
                         <ul className="nav-items">
                             <li className="nan-item">Home</li>
@@ -18,13 +18,13 @@ class Home extends Component {
                             <li className="nan-item">Create cart</li>
                         </ul>
                         <ul className="auth-items">
-                            <li className="account">Login</li>
-                            <li className="account">Register</li>
+                            <li>Login</li>
+                            <li>Register</li>
                         </ul>
                     </nav>
                 </header>
 
-                <section class="content">
+                <section className="content">
                   My list
                 </section>  
             </div>
